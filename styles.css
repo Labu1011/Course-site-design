@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./svg/illustration.svg);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    transition: 0.3s all ease;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 90px;
+    align-self: center;
+}
+.nav-items {
+    margin-right: 90px;
+}
+.nav-items > a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(14, 14, 14);
+    font-weight: bold;
+}
+.nav-items > a:hover {
+    /*text-decoration: underline; */
+    border-bottom: 3px solid #f9fc5a;
+    color: rgb(65, 65, 65);
+}
+.nav-items > button {
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #f9fc5a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+}
+.nav-items > button:hover {
+    background-color: #fdff77;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.hero-text {
+    max-width: 600px;
+    font-size: 25px;
+    margin-left: 130px;
+}
+.start {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #fcff46;
+    color: rgb(36, 36, 36);
+    border: none;
+    margin-top: 20px;
+    margin-left: 130px;
+    padding: 15px 20px;
+}
+.start:hover {
+    background-color: #fdff77;
+}
+.illus-1 {
+    height: 250px;
+    margin-right: 130px;
+}
+.credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+}
